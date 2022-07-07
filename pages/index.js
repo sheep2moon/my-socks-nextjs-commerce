@@ -12,7 +12,7 @@ const Home = ({ products, bannerData }) => {
             </div>
             <div className="flex">
                 {products?.map(product => (
-                    <Product key={product.name} />
+                    <Product key={product._id} product={product} />
                 ))}
             </div>
             <FooterBanner />
