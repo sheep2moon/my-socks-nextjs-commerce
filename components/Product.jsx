@@ -1,7 +1,6 @@
 import Image from "next/image.js";
 import Link from "next/link.js";
 import React from "react";
-import { useStateContext } from "../context/StateContext.js";
 import { getImageUrl } from "../lib/sanity.js";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice.js";

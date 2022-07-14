@@ -1,7 +1,7 @@
 import Link from "next/link.js";
 import React, { useEffect } from "react";
 import { HiOutlineShoppingBag } from "react-icons/hi";
-import Cart from "./Cart.jsx";
+import Cart from "./Cart/Cart.jsx";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { setShowCart } from "../redux/cartSlice.js";
